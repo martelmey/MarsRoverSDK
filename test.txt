@@ -1,0 +1,31 @@
+--- Fedora 30 test ---
+
+=== CLEAN INSTALL INSTRUCTIONS ===
+pip3 install virtualenv --user
+git clone https://github.com/martelmey/MarsRoverSDK.git
+cd MarsRoverSDK
+source env/bin/activate
+python3 example.py
+# If browser window opens with image - then success
+deactivate
+
+--- Windows 10 test ---
+
+=== CLEAN INSTALL INSTRUCTIONS ===
+# install python3 with pip3
+# add installation directory to PATH
+# clone MarsRoverSDK
+cd MarsRoverSDK
+env\Scripts\.\activate.ps1
+python example.py
+# If browser window opens with image - then success
+deactivate
+
+--- macOS Mojave test ---
+
+git clone https://github.com/martelmey/MarsRoverSDK.git
+cd MarsRoverSDK
+source env/bin/activate
+python3 example.py
+# If browser window opens with image - then success
+deactivate
