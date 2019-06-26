@@ -18,10 +18,10 @@ parser.add_argument('Rover',
                     help='Curiosity, Opportunity, or Spirit.')
 
 # .../photos?sol=1000&...
-parser.add_argument('Sol',
-                    metavar='sol',
-                    type=int,
-                    help='Martian day to view.')
+#parser.add_argument('Sol',
+#                    metavar='sol',
+#                    type=int,
+#                    help='Martian day to view.')
 
 # ...&camera={}&...
 parser.add_argument('Camera',
@@ -30,8 +30,10 @@ parser.add_argument('Camera',
                     help='Camera to view.')
 
 # ...&api_key={}
-parser.add_argument('API Key',
-                    metavar='apikey',
-                    type=str,
-                    help='Specify API key to use',
-                    default=api_key)
+#parser.add_argument('API Key',
+#                    metavar='apikey',
+#                    type=str,
+#                    help='Specify API key to use',
+#                    default=api_key)
+
+parser.parse_args()
