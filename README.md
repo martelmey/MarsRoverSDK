@@ -12,11 +12,12 @@ https://www.python.org/downloads/
 
 ### Install pip
 
-If using a Mac - Install pip if its not already on your machine. 
+Mac - Install pip if its not already on your machine. 
 ```
 $ sudo easy_install pip
 $ sudo pip install --upgrade pip
 ```
+Windows - Install pip during Python3 installation
 
 ### Get an API Key
 
@@ -26,9 +27,11 @@ Mars Rover Documenation: https://api.nasa.gov/api.html#MarsPhotos
 
 ### Running on Virtual Environment
 
-Run `source env/bin/activate` to activate the environment.
+On Mac: Run `source env/bin/activate` within project folder to activate the environment.
 
-To leave the environment enter `deactivate`. 
+On Windows: Run `env\Scripts\activate.ps1` within project folder, using PowerShell.
+
+To leave the environment enter `deactivate`. Mac & Windows.
 
 To load the requests library enter `pip install requests --user`. 
 
